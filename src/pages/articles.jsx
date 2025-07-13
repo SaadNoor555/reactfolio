@@ -60,7 +60,9 @@ const Articles = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											btn={article().btn}
+											link={article().link}
+											tgt={article().target}
 										/>
 									</div>
 								))}

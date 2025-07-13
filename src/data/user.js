@@ -3,16 +3,17 @@ const INFO = {
 		title: "Reactfolio by truethari",
 		name: "Saad Sakib Noor",
 		email: "ssaadn.555@gmail.com",
-		logo: "../logo.png",
+		logo: "../saad_1.jpg",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		github: "https://github.com/SaadNoor555",
+		linkedin: "https://www.linkedin.com/in/saad-sakib-noor-282098234/",
+		instagram: "https://instagram.com/unrealangaroo",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
+		huggingface: "https://huggingface.co/qoobeeshy"
 	},
 
 	homepage: {
@@ -31,9 +32,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "I'm passionate about innovating new solutions to solve our day-to-day problems",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Since starting my undergraduate studies in 2019, I have worked on various research projects accross wide range of domains. Among those, LLMs and VLMs for security and accessibility has attracted me the most. Here are some of my project works.",
 	},
 
 	projects: [
@@ -42,7 +43,7 @@ const INFO = {
 			techs: "Python, YOLOv8, Detectron2, ViT",
 			description:
 				"A YOLOv8 ensambling based approach to segment pictures, tables, text boxes and paragraphs from a bengali document image. The solution was used in DLSprint 2.0 competition, where it secured 2nd postion",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "./huggingface.png",
 			linkText: "View Project",
 			link: "https://huggingface.co/spaces/qoobeeshy/yolo-document-layout-analysis",
 			git: "https://github.com/SaadNoor555/Document-Layout-Analysis",
@@ -53,7 +54,7 @@ const INFO = {
 			techs: "JavaScript, Gemini, chatGPT",
 			description:
 				"I am currently developing a Chrome Extention to explain, refactor and analyze your github codes using LLMs without ever leaving the tab. The extention will be released as open source tool soon!",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "./clara.jpg",
 			linkText: "View Project",
 			link: "",
 			git: "",
@@ -64,18 +65,18 @@ const INFO = {
 			techs: "Python, LSTM, ARIMA",
 			description:
 				"While my internship at LEADS, I created a cashflow management system for bank branches, which leveraged previous cashflow and used them for time-series prediction using ARIMA, LSTM, etc.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: "./leads.jpg",
 			linkText: "View Project",
 			link: "https://colab.research.google.com/drive/1flk4lkQN1RckvcmVfkvb7Hc6AGCwoyjo?usp=sharing",
 			git: "https://colab.research.google.com/drive/1flk4lkQN1RckvcmVfkvb7Hc6AGCwoyjo?usp=sharing",
 		},
 
 		{
-			title: "BECM Stock Training Tool",
+			title: "BICM Stock Training Tool",
 			techs: "Python, Vue",
 			description:
 				"Created a Digital Financial Literacy Project that makes use of web scraping to show valuable information about Dhaka Stock Exchange (DSE). The tool was developed for the Bangladesh Institute of Capital Market (BICM)",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "./bicm.png",
 			linkText: "View Project",
 			link: "https://dfl.bicm.ac.bd/",
 			git: "https://dfl.bicm.ac.bd/",
