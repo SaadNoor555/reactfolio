@@ -182,7 +182,10 @@ const Homepage = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											// link={"/article/" + (index + 1)}
+											link={article().link}
+											readBtnText = {article().btn}
+											tgt={article().target}
 										/>
 									</div>
 								))}

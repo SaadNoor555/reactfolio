@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
 		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		name: "Saad Sakib Noor",
+		email: "ssaadn.555@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -16,15 +16,18 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Saad Sakib Noor",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hello! I am Saad, a software engineer with particular interest in NLP, Computer Vision and Security. I currently work as a software engineer at Samsung R&D Institute Bangladesh.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: `Hi! I’m Saad. I am a Software Engineer at Samsung R&D Institute Bangladesh`,
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			`My hobbies include sports, videogames, and playing around with different deeplearning models. \
+			I love to work on new projects and learn the latest innovations in the world of NLP and Computer Vision.\
+			I aim to innovate new solutions using these technologies that would improve lives of everyone, specially the people with special needs.\
+			My research interests include NLP, Computer Vision and their usecases in Software Engineering, Security & Privacy, Accessibility, etc.`,
 	},
 
 	articles: {
@@ -35,49 +38,72 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Bengali Document Layout Segmentation",
+			techs: "Python, YOLOv8, Detectron2, ViT",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A YOLOv8 ensambling based approach to segment pictures, tables, text boxes and paragraphs from a bengali document image. The solution was used in DLSprint 2.0 competition, where it secured 2nd postion",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://huggingface.co/spaces/qoobeeshy/yolo-document-layout-analysis",
+			git: "https://github.com/SaadNoor555/Document-Layout-Analysis",
 		},
 
 		{
-			title: "Project 2",
+			title: "CLARA: Code expLainer And Repo Analyzer",
+			techs: "JavaScript, Gemini, chatGPT",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"I am currently developing a Chrome Extention to explain, refactor and analyze your github codes using LLMs without ever leaving the tab. The extention will be released as open source tool soon!",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "",
+			git: "",
 		},
 
 		{
-			title: "Project 3",
+			title: "Bank Branches CashFlow Forecasting",
+			techs: "Python, LSTM, ARIMA",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"While my internship at LEADS, I created a cashflow management system for bank branches, which leveraged previous cashflow and used them for time-series prediction using ARIMA, LSTM, etc.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://colab.research.google.com/drive/1flk4lkQN1RckvcmVfkvb7Hc6AGCwoyjo?usp=sharing",
+			git: "https://colab.research.google.com/drive/1flk4lkQN1RckvcmVfkvb7Hc6AGCwoyjo?usp=sharing",
 		},
 
 		{
-			title: "Project 4",
+			title: "BECM Stock Training Tool",
+			techs: "Python, Vue",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Created a Digital Financial Literacy Project that makes use of web scraping to show valuable information about Dhaka Stock Exchange (DSE). The tool was developed for the Bangladesh Institute of Capital Market (BICM)",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://dfl.bicm.ac.bd/",
+			git: "https://dfl.bicm.ac.bd/",
 		},
 
 		{
-			title: "Project 5",
+			title: "Test Cube: Automated Test-case Generation Using Seq-to-seq Learning",
+			techs: "Python, Django, Transformers",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"In 2020, I created an automated unit test-case generator for JAVA codes, which used seq-to-seq model trained on Microsoft's 'methods2test' dataset.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/SaadDroid/TestCube",
+			git: "https://github.com/SaadDroid/TestCube",
 		},
+
+		{
+			title: "DroidBrain: An Automated Android GUI Explorer",
+			techs: "Python, Transformers, ADB",
+			description:
+				"DroidBrain is an android GUI explorer that can automatically traverse through android app UI. Given every necessary inputs, DroidBrain can smartly determine which action to perform in a UI to move forward.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "",
+			git: "",
+		},
+
+		
 	],
 };
 

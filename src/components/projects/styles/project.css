@@ -43,7 +43,14 @@
 	font-weight: 700;
 }
 
+.project-tools {
+	color: var(--secondary-color);
+	font-weight: 600; /* semi-bold */
+	font-size: 0.8rem;
+}
+
 .project-description {
+	padding-top: 7px;
 	color: var(--secondary-color);
 }
 
